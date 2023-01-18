@@ -1,0 +1,46 @@
+.upcoming-events {
+  padding: 20px;
+}
+
+.upcoming-events h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.upcoming-events ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.upcoming-events ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.upcoming-events ul li img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.upcoming-events ul li h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.upcoming-events ul li button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+}
